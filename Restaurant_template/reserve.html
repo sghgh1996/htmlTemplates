@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>رستوران لذیذ</title>
+
+    <link href='fonts/Vazir.ttf' rel='stylesheet' type='text/css'>
+    <link href='fonts/irsans.ttf' rel='stylesheet' type='text/css'>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-rtl.css">
+
+    <!--jalali calender-->
+    <link rel="stylesheet" href="css/jquery.Bootstrap-PersianDateTimePicker.css">
+
+    <!--icon effects-->
+    <link href="css/iconeffects.css" rel='stylesheet' type='text/css' />
+
+    <!-- http://fontawesome.io -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css" rel='stylesheet' type='text/css'>
+
+    <!-- my own styles -->
+    <link href="css/myStyles.css" rel="stylesheet" type="text/css" />
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.min.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- wow.js -->
+    <link href="css/animate.css" rel="stylesheet" type="text/css" media="all">
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+
+
+    <style type="text/css">
+        table {
+            font-family: irSamim, sans-serif;
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body>
+<!-- Start Navigation -->
+<nav id="myNavbar" class="navbar navbar-inverse navbar-fixed-top transparent_navbar" role="navigation">
+    <div class="navbar-header">
+        <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#me">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="index.html">رستوران لذیذ</a>
+    </div>
+    <div class="collapse navbar-collapse" id="me">
+        <ul class="nav navbar-nav">
+            <li id="main_li"><a href="index.html">صفحه اصلی</a></li>
+            <li id="blog_li"><a href="blog.html">وبلاگ</a></li>
+            <li id="gallery_li"><a href="gallery.html">گالری عکس</a></li>
+            <li id="reserve_li" class="active"><a href="reserve.html">رزور آنلاین غذا</a></li>
+            <li id="social_li" class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">شبکه های اجتماعی<b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                    <li><a href="#">فیسبوک</a></li>
+                    <li><a href="#">توئیتر</a></li>
+                    <li><a href="#">تلگرام</a></li>
+                    <li><a href="#">اینستاگرام</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+<!-- End Navigation -->
+
+<!-- Start Heading -->
+<div id="heading" class="t_margined_50px">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4 hidden-xs">
+                <img class="img-responsive top_padded_30px" src="img/logo.jpg" />
+            </div>
+            <div class="col-sm-8 samim">
+                <h1>رستوران لذیذ <span class="text-muted">&raquo; تجربه متفاوت از غذا خوردن</span></h1>
+                <p>
+                    لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد
+                </p>
+                <br />
+                <p class="left_floated"><a href="#" class="btn btn-primary">
+                    همین الآن رزرو کنید
+                    <i class="fa fa-btn fa-cutlery"></i>
+                </a></p>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Heading -->
+
+<!--Start reserve part-->
+<div id="reserve_block">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <form class="form-horizontal" role="form">
+                        <div class="col-sm-4 form-group">
+                            <input id="date" type="text" class="form-control"
+                                   data-mddatetimepicker="true" placeholder="تاریخ"
+                                   data-placement="bottom" />
+                        </div>
+                        <div class="col-sm-2 col-sm-offset-6 form-group">
+                            <button type="submit" class="btn btn-default left_floated">
+                                نمایش منو</button>
+                        </div>
+                </form>
+            </div>
+        </div>
+        <br/>
+        <br/>
+        <hr>
+        <br/>
+        <div class="row">
+            <div class="col-lg-12">
+                <h3 class="centered_text">منوی غذای رستوران لذیذ</h3>
+                <br/>
+                <div class="table-responsive">
+                    <table class="table">
+                        <thead>
+                        <tr>
+                            <th>غذای اصلی</th>
+                            <th>پیش غذا</th>
+                            <th>قیمت به تومان</th>
+                            <th>انتخاب</th>
+                            <th>تعداد</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>چلو خورش مرغ</td>
+                            <td>سوپ جو</td>
+                            <td>38000</td>
+                            <td>
+                                <div class="checkbox">
+                                    <label><input type="checkbox"></label>
+                                </div>
+                            </td>
+                            <td>
+                                <input type="number" min="1" max="12" name="numbers">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>چلو کباب کوبیده</td>
+                            <td>آش رشته</td>
+                            <td>24000</td>
+                            <td>
+                                <div class="checkbox">
+                                    <label><input type="checkbox"></label>
+                                </div>
+                            </td>
+                            <td>
+                                <input type="number" min="1" max="12" name="numbers">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>شیشلیگ</td>
+                            <td>ندارد</td>
+                            <td>45000</td>
+                            <td>
+                                <div class="checkbox">
+                                    <label><input type="checkbox"></label>
+                                </div>
+                            </td>
+                            <td>
+                                <input type="number" min="1" max="12" name="numbers">
+                            </td>
+                        </tr>
+                        <tr>
+                           <td colspan="5">
+                               <button type="submit"
+                                       class="btn btn-default btn-lg center-block">رزرو</button>
+                           </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--end reserve part-->
+<!--Start footer-->
+<div id="footer">
+    <div class="container">
+        <div class="row">
+            <footer class="col-sm-offset-3 col-sm-6">
+                <img class="img-responsive center-block" style="width:200px; height: 128px"
+                     src="img/logo.jpg">
+                <h4 class="centered_text">کیفیت برتر</h4>
+                <div class="social center-block">
+                    <div class="col-lg-3">
+                        <a href="#"><img src="img/facebook_icon.png"></a>
+                    </div>
+                    <div class="col-lg-3">
+                        <a href="#"><img src="img/twitter_icon.png"></a>
+                    </div>
+                    <div class="col-lg-3">
+                        <a href="#"><img src="img/instagram_icon.png"></a>
+                    </div>
+                    <div class="col-lg-3">
+                        <a href="#"><img src="img/telegram_icon.png"></a>
+                    </div>
+                </div>
+                <br>
+                <br>
+                <p class="centered_text font_size_14px">طراحی توسط سجاد قنبری نسب sghgh1996@yahoo.com</p>
+            </footer>
+        </div>
+    </div>
+</div>
+<!--End footer-->
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> -->
+<script src="js/jquery-1.11.3.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jalaali.js"></script>
+<script src="js/jquery.Bootstrap-PersianDateTimePicker.js"></script>
+<script type="text/javascript">
+    (function(){
+
+    })();
+</script>
+</body>
+</html>

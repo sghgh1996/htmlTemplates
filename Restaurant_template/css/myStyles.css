@@ -1,0 +1,172 @@
+/*font face*/
+/* default versions*/
+@font-face {
+    font-family: 'iranianSansReg';
+    src: url("../fonts/irsans.ttf");
+    format('opentype');
+}
+/* default versions*/
+@font-face {
+    font-family: 'irSamim';
+    src: url("../fonts/Samim.ttf");
+    format('opentype');
+}
+/*bold version*/
+@font-face {
+    font-family: 'irSamim';
+    src: url('../fonts/Samim-Bold.ttf');
+    format('opentype');
+    font-weight: bold;
+}
+
+/*elements*/
+html, body {
+    font-family: iranianSansReg, sans-serif;
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 1.7;
+}
+li {
+    text-decoration: none;
+}
+a, a:active, a:focus {
+    outline: none;
+}
+
+/*styles for special elements*/
+.transparent_navbar{
+    opacity: 0.8;
+    filter: alpha(opacity=80); /* For IE8 and earlier */
+    background-color: #1E0C01;
+}
+#myNavbar li.active a{
+    background-color: #505B07 !important;
+}
+.carousel-inner > .item > img{
+    position: absolute;
+    top: 50px;
+    left: 0;
+    min-width: 100%;
+    height: 100vh;
+}
+.carousel-inner .item {
+    height: 100vh;
+}
+#heading {
+    background-color: #F2FF9A;
+    padding: 20px 15px 20px 15px;
+}
+#services {
+    background-color: #FCF2F2;
+    padding-top: 30px;
+}
+#services img {
+    margin-top: 22px;
+}
+#chefs{
+    padding-top: 30px;
+}
+#chefs img{
+    width: 390px;
+    height: 240px;
+}
+.chef_row > div {
+    margin-bottom: 10px;
+}
+.chef_info {
+    position: relative;
+}
+.over_image_div {
+    position: absolute;
+    overflow: hidden;
+    z-index: 1;
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+    top: 10px;
+    width: 90%;
+    height: 90%;
+    font-size: 14px;
+    color: #000;
+    background: rgba(26,23,23,.3);
+}
+.map{
+    width:100%;
+}
+#footer {
+    background-color: #2F2109;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    color: #fff;
+}
+#footer .social{
+    width: 200px;
+}
+.post_name {
+    color: #FFAB00;
+}
+#posts {
+    margin-top: 50px;
+}
+#reserve_block{
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+#gallery_block {
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+#gallery_block img{
+    width: 250px;
+    height: 250px;
+}
+/*styles for public elements*/
+.hi-icon-effect-7 .hi-icon {
+    box-shadow: 0 0 0 5px #efa52c;
+}
+.hi-icon-effect-7b .hi-icon:after {
+    box-shadow: 4px 4px #F92929;
+}
+.tooltip {
+    font-family: 'irSamim', sans-serif;
+}
+.tooltip .tooltip-inner{
+    font-family: 'irSamim', sans-serif;
+}
+.samim {
+    font-family: 'irSamim', sans-serif;
+}
+.left_floated{
+    float: left;
+}
+.right_floated{
+    float: right;
+}
+.top_padded_30px{
+    padding-top: 30px;
+}
+.top_padded_15px{
+    padding-top: 15px;
+}
+.centered_text {
+    text-align: center;
+}
+.b_margined {
+    margin-bottom: 20px;
+}
+.t_margined_50px {
+    margin-top: 50px;
+}
+
+.font_size_14px{
+    font-size: 14px;
+}
+
+/*medias*/
+@media (min-width: 256px)and(max-width: 480px) {
+    .carousel-caption{
+        margin-top: 80px;
+    }
+}
+

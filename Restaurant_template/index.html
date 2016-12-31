@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>رستوران لذیذ</title>
+
+    <link href='fonts/Vazir.ttf' rel='stylesheet' type='text/css'>
+    <link href='fonts/irsans.ttf' rel='stylesheet' type='text/css'>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-rtl.css">
+
+    <!--icon effects-->
+    <link href="css/iconeffects.css" rel='stylesheet' type='text/css' />
+
+    <!-- http://fontawesome.io -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css" rel='stylesheet' type='text/css'>
+
+    <!-- my own styles -->
+    <link href="css/myStyles.css" rel="stylesheet" type="text/css" />
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.min.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- wow.js -->
+    <link href="css/animate.css" rel="stylesheet" type="text/css" media="all">
+    <script src="js/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
+
+
+    <style type="text/css">
+
+      </style>
+  </head>
+  
+  <body>
+  <!-- Start Navigation -->
+  <nav id="myNavbar" class="navbar navbar-inverse navbar-fixed-top transparent_navbar" role="navigation">
+    <div class="navbar-header">
+      <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#me">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">رستوران لذیذ</a>
+    </div>
+    <div class="collapse navbar-collapse" id="me">
+      <ul class="nav navbar-nav">
+        <li id="main_li" class="active"><a href="index.html">صفحه اصلی</a></li>
+        <li id="blog_li"><a href="blog.html">وبلاگ</a></li>
+        <li id="gallery_li"><a href="gallery.html">گالری عکس</a></li>
+        <li id="reserve_li"><a href="reserve.html">رزور آنلاین غذا</a></li>
+        <li id="about_li"><a href="#" id="about_nav">درباره ما</a></li>
+        <li id="contact_li"><a href="#" id="contact_nav">تماس با ما</a></li>
+        <li id="social_li" class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">شبکه های اجتماعی<b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">فیسبوک</a></li>
+            <li><a href="#">توئیتر</a></li>
+            <li><a href="#">تلگرام</a></li>
+            <li><a href="#">اینستاگرام</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!-- End Navigation -->
+
+  <!-- Start Carousel -->
+  <div id="introCarousel" class="carousel slide">
+    <ol class="carousel-indicators">
+      <li data-target="#introCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#introCarousel" data-slide-to="1"></li>
+      <li data-target="#introCarousel" data-slide-to="2"></li>
+      <li data-target="#introCarousel" data-slide-to="3"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="item active">
+        <img src="img/intro1.jpg" class="img-responsive">
+        <div class="container active">
+          <div class="carousel-caption">
+            <h1>کیفیت برتر</h1>
+            <p>
+              لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال
+            </p>
+            <p><a href="#" class="btn btn-primary btn-large">
+              همین الآن رزرو کنید
+              <i class="fa fa-btn fa-cutlery"></i>
+            </a></p>
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <img src="img/intro2.jpg">
+        <div class="container active">
+          <div class="carousel-caption">
+            <h1>منوی متنوع</h1>
+            <p>
+              لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابه
+            </p>
+            <p><a href="#" class="btn btn-primary btn-large">
+              همین الآن رزرو کنید
+              <i class="fa fa-btn fa-cutlery"></i>
+            </a></p>
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <img src="img/intro3.jpg">
+        <div class="container active">
+          <div class="carousel-caption">
+            <h1>متناسب با سلیقه شما</h1>
+            <p>
+              لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان ج
+            </p>
+            <p><a href="#" class="btn btn-primary btn-large">
+              همین الآن رزرو کنید
+              <i class="fa fa-btn fa-cutlery"></i>
+            </a></p>
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <img src="img/intro4.jpg">
+        <div class="container active">
+          <div class="carousel-caption">
+            <h1>قابلیت رزرو آنلاین</h1>
+            <p>
+              لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد
+            </p>
+            <p><a href="#" class="btn btn-primary btn-large">
+              همین الآن رزرو کنید
+              <i class="fa fa-btn fa-cutlery"></i>
+            </a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a class="right carousel-control" href="#introCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-right"></span></a>
+    <a class="left carousel-control" href="#introCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-left"></span></a>
+  </div>
+  <!-- End Carousel -->
+
+  <!-- Start Heading -->
+  <div id="heading">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-4 hidden-xs">
+          <img class="img-responsive top_padded_30px" src="img/logo.jpg" />
+        </div>
+        <div class="col-sm-8 samim">
+          <h2>رستوران لذیذ <span class="text-muted">&raquo; تجربه متفاوت از غذا خوردن</span></h2>
+          <p>
+            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد
+          </p>
+          <br />
+          <p class="left_floated"><a href="#" class="btn btn-primary btn-large">
+            همین الآن رزرو کنید
+            <i class="fa fa-btn fa-cutlery"></i>
+          </a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Heading -->
+
+  <!-- Start Services-->
+  <div id="services">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12"><h2>خدمات ما</h2><hr></div>
+      </div>
+      <div class="row">
+        <div class="col-sm-6 col-md-3">
+          <div class="hi-icon-wrap hi-icon-effect-7 hi-icon-effect-7b">
+            <a href="#" class="hi-icon"><img src="img/serve1.png"
+                                             class="center-block" alt="منوی متنوع"/></a>
+            <h3>منوی متنوع</h3>
+            <p>
+              لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد
+            </p>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <div class="hi-icon-wrap hi-icon-effect-7 hi-icon-effect-7b">
+            <a href="#" class="hi-icon"><img src="img/serve2.png"
+                                             class="center-block" alt="رزرو آنلاین"/></a>
+            <h3>رزرو آنلاین</h3>
+            <p>
+              لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان
+            </p>
+          </div>
+        </div>
+        <div class="clearfix hidden-md hidden-lg"></div>
+        <div class="col-sm-6 col-md-3">
+          <div class="hi-icon-wrap hi-icon-effect-7 hi-icon-effect-7b">
+            <a href="#" class="hi-icon"><img src="img/serve3.png"
+                                             class="center-block" alt="کیفیت"/></a>
+            <h3>دستور العمل با کیفیت</h3>
+            <p>
+              لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان
+            </p>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <div class="hi-icon-wrap hi-icon-effect-7 hi-icon-effect-7b">
+            <a href="#" class="hi-icon"><img src="img/serve4.png"
+                                             class="center-block" alt="فضای صمیمی"/></a>
+            <h3>فضای صمیمی</h3>
+            <p>
+              لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--End Services-->
+
+  <!--Start Chefs-->
+  <div id="chefs" style="color:#3DACFF;">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <h2>سرآشپز های ما<hr></h2>
+        </div>
+      </div>
+      <div class="row chef_row">
+        <div class="col-sm-6 col-md-3 col-lg-4">
+          <div class="wow fadeInRight chef_info" rel="chef_1">
+            <img class="img-responsive" src="img/chef1.jpg" alt="chef1" />
+            <div class="over_image_div" id="chef_1">
+              <h4 class="centered_text">لورم ایپسوم</h4>
+              <hr style="border-top-color: #66F73A">
+              <p>
+                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-3 col-lg-4">
+          <div class="wow fadeInRight chef_info" rel="chef_2">
+            <img class="img-responsive" src="img/chef2.jpg" alt="chef2" />
+            <div class="over_image_div" id="chef_2">
+              <h4 class="centered_text">لورم ایپسوم</h4>
+              <hr style="border-top-color: #66F73A">
+              <p>
+                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="clearfix hidden-md hidden-lg"></div>
+        <div class="col-sm-6 col-md-3 col-lg-4">
+          <div class="wow fadeInRight chef_info" rel="chef_3">
+            <img class="img-responsive" src="img/chef3.jpg" alt="chef3" />
+            <div class="over_image_div" id="chef_3">
+              <h4 class="centered_text">لورم ایپسوم</h4>
+              <hr style="border-top-color: #66F73A">
+              <p>
+                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="clearfix hidden-md hidden-sm hidden-xs"></div>
+        <div class="col-sm-6 col-md-3 col-lg-4">
+          <div class="wow fadeInRight chef_info" rel="chef_4">
+            <img class="img-responsive" src="img/chef4.jpg" alt="chef4" />
+            <div class="over_image_div" id="chef_4">
+              <h4 class="centered_text">لورم ایپسوم</h4>
+              <hr style="border-top-color: #66F73A">
+              <p>
+                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="clearfix hidden-lg"></div>
+        <div class="col-sm-6 col-md-3 col-lg-4">
+          <div class="wow fadeInRight chef_info" rel="chef_5">
+            <img class="img-responsive" src="img/chef5.jpg" alt="chef5" />
+            <div class="over_image_div" id="chef_5">
+              <h4 class="centered_text">لورم ایپسوم</h4>
+              <hr style="border-top-color: #66F73A">
+              <p>
+                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-3 col-lg-4">
+          <div class="wow fadeInRight chef_info" rel="chef_6">
+            <img class="img-responsive" src="img/chef6.jpg" alt="chef6" />
+            <div class="over_image_div" id="chef_6">
+              <h4 class="centered_text">لورم ایپسوم</h4>
+              <hr style="border-top-color: #66F73A">
+              <p>
+                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و ب
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--End Chefs-->
+
+  <!--start about-->
+  <div id="about" class="top_padded_30px">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8">
+          <h2 class="centered_text">درباره رستوران لذیذ</h2>
+          <hr>
+          <p>
+            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گراف
+            یک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنا
+            ن که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع ب
+            ا هدف بهبود ابزارهای کاربردی می باشد.
+            کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شن
+            اخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را
+            برای طراحان رایانه ای علی الخصوص طراحان خلاقی و فرهنگ پیشرو در زبان فارسی ایجاد کرد.
+            در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها و شرایط سخت تایپ به پای
+            ان رسد وزمان مورد نیاز شامل حروفچینی دستاوردهای اصلی و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.
+          </p>
+        </div>
+        <div class="col-sm-4">
+          <img class="img-circle img-responsive" src="img/boss_office.jpg" />
+          <hr style="border-top-color: #011750">
+          <address>
+            <h3>ریاست رستوران لذیذ</h3>
+            چهارراه ولیعصر, <br/>
+            روبری تئاتر شهر, <br/>
+            نرسیده به ایستگاه مترو<br/>
+            <a href="mailto: sghgh1996@yahoo.com">تماس با ریاست</a><br>
+            <abbr title="تلفن">ت: </abbr>0935-42-42
+          </address>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--end about-->
+
+  <!--Start Contact-->
+  <div id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <h2 class="centered_text">با ما در ارتباط باشید</h2>
+        </div>
+      </div>
+      <br />
+      <div class="row">
+        <div class="col-md-6">
+          <h4>پیام خود را ارسال کنید</h4>
+          <hr style="border-top-color: #0e83cd">
+          <form role="form" class="form-horizontal top_padded_30px font_size_14px">
+            <div class="form-group">
+              <label for="email" class="col-lg-4 control-label">پست الکترونیکی : </label>
+              <div class="col-lg-8">
+                <input type="email" class="form-control" id="email" placeholder="پست الکترونیکی">
+              </div>
+            </div>
+            <div class="form-group top_padded_30px">
+              <label for="msg" class="col-lg-4 control-label">متن پیام: </label>
+              <div class="col-lg-8">
+                <textarea class="form-control" rows="6" id="msg" placeholder="پیام خود را اینجا بنویسید..."></textarea>
+              </div>
+            </div>
+            <div class="form-group top_padded_30px">
+              <div class="col-lg-offset-4 col-lg-8">
+                <a data-toggle="modal" href="#msgConfirmModal" class="btn btn-default btn-lg">ارسال</a>
+              </div>
+            </div>
+          </form>
+        </div>
+        <!--modal-->
+        <div class="modal fade font_size_14px" id="msgConfirmModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h3 class="modal-title">بابت پیام شما سپاس گزاریم</h3>
+              </div>
+              <div class="modal-body">
+                <p>
+                  بابت پیام شما متشکریم. تیم مدیریت سایت در اسرع وقت پاسخ شما را خواهد داد.
+                </p>
+                <p>حتما به رستوران ما سر بزنید</p>
+              </div>
+              <div class="modal-footer">
+                <a href="index.html" class="btn btn-default btn-lg">باشه</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--modal ended-->
+        <div class="col-md-6">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.0267052916574!2d51.403639814651456!3d35.70096043649838!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f8e010c16a4b97b%3A0x5a6d4dfb4f1474f4!2sVali+Asr!5e0!3m2!1sen!2sir!4v1469535562465"
+                  width="600" height="450" frameborder="0" style="border:0" allowfullscreen
+                  class="map"></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--End Contact-->
+
+  <!--Start footer-->
+  <div id="footer">
+    <div class="container">
+      <div class="row">
+        <footer class="col-sm-offset-3 col-sm-6">
+          <img class="img-responsive center-block" style="width:200px; height: 128px"
+               src="img/logo.jpg">
+          <h4 class="centered_text">کیفیت برتر</h4>
+          <div class="social center-block">
+            <div class="col-lg-3">
+              <a href="#"><img src="img/facebook_icon.png"></a>
+            </div>
+            <div class="col-lg-3">
+              <a href="#"><img src="img/twitter_icon.png"></a>
+            </div>
+            <div class="col-lg-3">
+              <a href="#"><img src="img/instagram_icon.png"></a>
+            </div>
+            <div class="col-lg-3">
+              <a href="#"><img src="img/telegram_icon.png"></a>
+            </div>
+          </div>
+          <br>
+          <br>
+          <p class="centered_text font_size_14px">طراحی توسط سجاد قنبری نسب sghgh1996@yahoo.com</p>
+        </footer>
+      </div>
+    </div>
+  </div>
+  <!--End footer-->
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> -->
+    <script src="js/jquery-1.11.3.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <script type="text/javascript">
+      (function(){
+        // chef_info
+        var over_image_div = $('div.over_image_div');
+        var chef_info = $('div.chef_info'),
+                h = over_image_div.height();
+
+        over_image_div.css({height:0});
+
+        $.fn.slideUp = function(speed, func){
+          return $(this).animate({
+            height : h
+          }, speed || 1000, function(){
+            $.isFunction(func) && func();
+          });
+        };
+        $.fn.slideDown = function(speed, func){
+          return $(this).animate({
+            height : 0
+          }, speed || 1000, function(){
+            $.isFunction(func) && func();
+          });
+        };
+
+        chef_info.on('mouseenter', function(){
+          var on_image_content_id = $(this).attr('rel');
+          $('#' + on_image_content_id).slideUp(500);
+        });
+        chef_info.on('mouseleave', function(){
+          var on_image_content_id = $(this).attr('rel');
+          $('#' + on_image_content_id).slideDown(500);
+        });
+
+        //navigation bar
+        var page = $("html, body");
+        var about_top = $('#about').offset().top;
+        var contact_top = $('#contact').offset().top;
+        var navbar_height = $('#myNavbar').innerHeight();
+
+        //about
+        $('#about_nav').on("click", function(){
+          var newScrollTop = about_top - navbar_height;
+          page.animate({scrollTop: newScrollTop}, 1200);
+        });
+        //contact
+        $('#contact_nav').on("click", function(){
+          var newScrollTop = contact_top - navbar_height;
+          page.animate({scrollTop: newScrollTop}, 1200);
+        });
+
+        //change active class
+        var footer_top = $('#footer').offset().top;
+
+        window.onscroll = function(){func()};
+
+        function func(){
+          var page_top = document.documentElement.scrollTop;
+          var main_li = $('#main_li');
+          var about_li = $('#about_li');
+          var contact_li = $('#contact_li');
+
+          console.log(page_top);
+          console.log(contact_top);
+          console.log("   ");
+          if(page_top + 0.2 >= about_top - navbar_height &&
+                  page_top < contact_top - navbar_height - 1){
+            main_li.removeClass('active');
+            contact_li.removeClass('active');
+            about_li.addClass('active');
+          } else if (page_top + 1>= contact_top - navbar_height &&
+                  page_top < footer_top - navbar_height) {
+            main_li.removeClass('active');
+            about_li.removeClass('active');
+            contact_li.addClass('active');
+          } else {
+            about_li.removeClass('active');
+            contact_li.removeClass('active');
+            main_li.addClass('active');
+          }
+        }
+
+
+
+      })();
+    </script>
+  </body>
+</html>

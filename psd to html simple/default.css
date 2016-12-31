@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+}
+body{
+    background-color: #161513;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+img{
+    display: block;
+}
+#all{
+    direction: rtl;
+    font-family: 'b yekan';
+    height: auto;
+    width: 1024px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-top: 8px solid;
+    border-image: url("assets/img/top_border.png") 30 round;
+    -webkit-border-image: url("assets/img/top_border.png") 30 round; /* safari */
+    -o-border-image: url("assets/img/top_border.png") 30 round;/* opera */
+    -moz-border-image: url("assets/img/top_border.png") 30 round;/* firefox */
+}
+#nav_bar{
+    width: 1024px;
+    position: relative;
+}
+#nav_bar .button{
+    margin: auto 15px;
+    width: 100px;
+    height: 40px;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+    color: aliceblue;
+    border-radius: 10px;
+    background: #ff9f00;  /*for browsers which don't support gradient*/
+    background: linear-gradient(to bottom, #ff9f00, #fff000);
+    background: -webkit-linear-gradient(to bottom, #ff9f00, #fff000);/* safari */
+    background: -moz-linear-gradient(to bottom, #ff9f00, #fff000);/* firefox*/
+    background: -o-linear-gradient(to bottom, #ff9f00, #fff000);/*opera*/
+}
+#nav_bar .button:hover{
+    background: #1aab03;  /*for browsers which don't support gradient*/
+    background: linear-gradient(to bottom, #1aab03, #a8ff00);
+    background: -webkit-linear-gradient(to bottom, #1aab03, #a8ff00);/* safari */
+    background: -moz-linear-gradient(to bottom, #1aab03, #a8ff00);/* firefox*/
+    background: -o-linear-gradient(to bottom, #1aab03, #a8ff00);/*opera*/
+    cursor: pointer;
+}
+#nav_bar #about{
+    right: 115px;
+}
+#nav_bar #home{
+    right: 0;
+}
+#nav_bar #contact{
+    right: 230px;
+}
+#nav_bar #search_bar{
+    margin: auto 15px;
+    width: 180px;
+    height: 30px;
+    left: 20px;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+    color: #161513;
+    border-radius: 5px;
+    background: #c3c2aa;
+}
+#header_bar{
+    width: 1024px;
+    position: relative;
+}
+#header_bar #site_title{
+    color: aliceblue;
+    width: 600px;
+    height: 145px;
+    right: 0;
+    top: 0;
+    margin: 20px 20px 20px 20px;
+    font-size: 54px;
+    position: absolute;
+    text-align: center;
+    line-height: 145px;
+}
+#header_bar #site_info{
+    color: aliceblue;
+    width: 300px;
+    height: 145px;
+    margin: 20px 20px 20px 20px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+#main_bar{
+    width: 1024px;
+    /*position: relative;*/
+    font-size: 15px;
+    text-align: justify;
+    overflow: hidden;
+}
+#main_bar .text_bar{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #292826;
+    color : aliceblue;
+    padding: 10px;
+    display: inline-block;
+}
+#main_bar #right_bar{
+    width: 210px;
+    margin-right: 10px;
+    float: right;
+}
+#main_bar #right_bar_header{
+    margin-top: 30px;
+    matgin-right: 10px;
+    width: 250px;
+    height: 60px;
+    display: inline-block;
+    float: right;
+}
+#main_bar #left_bar{
+    width: 660px;
+    margin-left: 20px;
+    float: left;
+}
+#main_bar #left_bar_header{
+    margin-top: 30px;
+    margin-left: 10px;
+    width: 700px;
+    height: 60px;
+    display: inline-block;
+    float: left;
+}
+#main_bar .button{
+    margin: 0 5px 0 50px;
+    width: 40px;
+    height: 40px;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+    border-radius: 5px;
+    color: #fe0000;
+    background: #ffffff;
+    text-align: center;
+    line-height: 40px;
+    clear: both;
+    float: left;
+}
+#main_bar .button:hover{
+    color: #ffffff;
+    background: #fe0000;
+    cursor: pointer;
+}
+#down_info{
+    width: 900px;
+    height: 150px;
+    margin: 25px 62px 20px 62px;
+    background-image: url("assets/img/down_info_bg.png");
+    overflow: hidden;
+}
+#down_info .text_bar{
+    width: 200px;
+    height: 120px;
+    margin: 15px 20px 15px 0;
+    float: right;
+    display: inline-block;
+    color: aliceblue;
+    text-align: center;
+    font-size: 15px;
+
+}
+#footer{
+    width: 100%;
+    height: 40px;
+    background-color: #ffe000;
+    color: #002;
+    text-align: center;
+    font-size: 21px;
+    line-height: 40px;
+    direction: ltr;
+}
